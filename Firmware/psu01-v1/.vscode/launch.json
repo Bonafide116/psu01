@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug bringup (J-Link managed)",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/build/bringup",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "jlink",
+            "device": "STM32L432KC",
+            "interface": "swd",
+            "gdbPath": "arm-none-eabi-gdb",
+            "runToEntryPoint": "main",
+            "svdFile": "${workspaceFolder}/STM32L4x2.svd",
+            "preLaunchCommands": [
+                
+            ]
+        }
+    ]
+}
+

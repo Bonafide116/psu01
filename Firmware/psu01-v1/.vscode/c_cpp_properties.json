@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "name": "STM32L432KC",
+            "includePath": [
+                "${workspaceFolder}/inc/**"
+            ]
+        }
+    ],
+    "version": 4
+}
