@@ -1,9 +1,6 @@
 #include "drivers/gpio.h"
+#include "drivers/uart.h"
 
-#define LED_PORT    GPIO_PORT_A
-#define LED_PIN     15
-#define SWITCH_PORT GPIO_PORT_A
-#define SWITCH_PIN  1
 
 int main(void) {
     gpio_enable_clock(GPIO_PORT_A);   // both LED and switch are on port A now

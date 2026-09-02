@@ -2,6 +2,7 @@
     "configurations": [
         {
             "name": "STM32L432KC",
+            "intelliSenseMode": "linux-gcc-arm",
             "includePath": [
                 "${workspaceFolder}/inc/**"
             ]

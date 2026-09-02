@@ -13,8 +13,9 @@
             "gdbPath": "arm-none-eabi-gdb",
             "runToEntryPoint": "main",
             "svdFile": "${workspaceFolder}/STM32L4x2.svd",
+            "preLaunchTask": "Build (Docker toolchain)",
             "preLaunchCommands": [
-                
+             
             ]
         }
     ]
